@@ -17,5 +17,36 @@ for(var num = 0; num < Carros.length; num++){
 */
 
 function Clique(){
-    alert("Obrigado por Clicar");
+    document.getElementById("Titulo");
+    
 }
+/*	Comandos Javascript 
+	Array.of cria um array de acordo com parametros
+	Array.from expera por um parametro Array-like ou Iterable Object
+	Push = Adiciona elementos no final do Array e retorna o tamanho da lista
+	Unshift = Adiciona no inicio						''		''		''
+	Pop = Remove  '' 			''					''	  o item removido
+	Shift Remove do inicio 								''		''		
+
+	Concat = Concatena uma ou mais Array e retorna uma nova
+	Slice = Retorna um novo array 'fatiando' de acordo com início e fim
+	Splice = Altera um Array adicionando elementos enquanto remove antigos
+	ForEach = 
+	Map = Retorna um novo Array, do mesmo tamanho, iterando com os itens(Ex * 2)
+	Flat = Retorna um novo Array, com todos elementos de um Sub-Array, concatenado de acordo com a profundidade
+	FlatMap = Retorna um array do mesmo tamanho, iterando com os itens, com profundidade 1
+	Keys = Retorna um Array Iterator que contém chaves para cada elemento
+	Values = Retorna um Array Iterator que contém os valores para cada elemento
+	Entries = Retorna um Array Iterator que contém os pares/chaves para cada elemento
+	Find = Retorna o primeiro item que satisfaça a condição
+	FindIndex = '' 		''	  index 	''		''
+	Filter = Retorna um novo array com todos os itens que satisfaçam a condição
+	IndexOf = Retorna o primeiro Index do item encontrado no array
+	LastIndexOf = '' 	ultimo ''		''		''		''
+	Includes = Retorna um booleano dizendo se contém o item no array
+	Some = Retorna um booleano verificando se pelo menos um item no array satisfaz a condição
+	Every = ''		''			''		''		todos os intens 		''			''
+	Sort = Ordena os itens do Array conforme condição
+	Reverse = Inverte o sentido do Array
+	Join = Junta todos os elementos, separados por um delimitador 
+*/
